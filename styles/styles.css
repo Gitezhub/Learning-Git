@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#bg {
+  height: 100vh;
+  padding: 20px;
+  background: cornflowerblue;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#bg.orange {
+  background: orange;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.75);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.somebtn {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background: palevioletred;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: none;
+}
+
+.somebtn:hover {
+  background-color: #ebabc0;
+}
+
+.somebtn:focus {
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=styles.css.map */

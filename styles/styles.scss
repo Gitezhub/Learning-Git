@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#bg {
+  height: 100vh;
+  padding: 20px;
+  background: cornflowerblue;
+  transition: 1s;
+  &.orange {
+    background: orange;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.75);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.somebtn {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background: palevioletred;
+  transition: 0.4s;
+
+  border: none;
+  &:hover {
+    background-color: rgb(235, 171, 192);
+  }
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
